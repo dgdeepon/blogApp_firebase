@@ -1,0 +1,4 @@
+
+.FormStyles{
+    @apply p-2 m-1 focus:outline-purple-500 border-2
+}
