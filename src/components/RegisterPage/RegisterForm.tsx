@@ -125,9 +125,11 @@ function RegisterForm(): JSX.Element{
 
       createUserWithEmailAndPassword(auth,inputValue.email,inputValue.password)
       .then((userDetails)=>{
-        console.log(userDetails);
+        // console.log(userDetails);
+        alert("Your account has been successfully created.")
       }).catch((error)=>{
-        console.log(error.message);
+        // console.log(error.message);
+        alert("Something went wrong.")
       })
     }else {
       alert('Invaild user creditionals!');
